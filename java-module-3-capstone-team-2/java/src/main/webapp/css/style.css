@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.header-div {
+	 background-color: beige; 
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  transition: top 0.3s;
+	
+	
+}
+#park-description {
+	margin-right: 35%;
+}
+.homepage {
+	margin: 0 auto;
+	width: 250px;
+}
+	
+	
+}
+
+#logo {
+	width: 35%;
+}
+
+nav {
+	border-top: 1px, solid, black;
+}
+
+body {
+	background-color: beige;
+}
+
+ul {
+	border-top: 1px, solid, black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: "home survey top . . . . . .";
+	list-style-type: none;
+	text-decoration: none;;
+	grid-gap: 5px;
+}
+
+.home {
+	grid-area: home;
+}
+
+.survey {
+	grid-area: survey;
+}
+
+.top {
+	grid-area: top;
+}
+
+
+.surveyInput {
+	display: flex-box;
+	margin-top: 200px;
+	
+	
+	
+}
+.surveyTitle {
+	display: flex;
+	font-size: large;
+	margin-top: -30px;
+	font-weight: bold;
+	
+}
+
+.surveyOutputTitle{
+	display: flex;
+	font-size: 40px;
+	margin-top: -30px;
+	margin-left: 120px;
+	font-weight: bold;
+	text-align: center;
+	
+	
+}
+.surveyOutput {
+	display: flex-box;
+	margin-top: 200px;
+	
+	
+}
+
+
+
+
+
+#forecast {
+	opacity: 0.9;
+	padding-right: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+body {
+	boackground-color: beige;
+}
+
+#logo {
+	max-width: 350px;
+}
+
+#header-div {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	top: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#main-content {
+	display: flex-box;
+	margin-top: 170px;
+
+}
+
+ul {
+	padding: 10px;
+	background-color: #4C4825;
+	color: white;
+	width: 100%;
+	position: relative;
+	top: -15px;
+}
+
+li {
+	display: inline;
+	margin: 0px 10px 0px 10px;
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding: 30px;
+	background-color: #4C4825;
+	max-width: 100%;
+	margin-left: 0px
+	;
+}
+
+ div .advisory {
+	font-weight: bold;
+	color: darkred;
+	font-size: 15px;
+	
+	
+}
+}
